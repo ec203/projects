@@ -1,0 +1,826 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#">
+<head>
+	<title>有.設計 uDesign | WT2 實時翻譯耳機</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta property="og:title" content="有.設計 uDesign | WT2 實時翻譯耳機">
+	<meta property="og:description" content="moshi">
+	<meta property="og:image" content="">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider.js"></script>
+    
+    
+    
+<!--Slider-->
+<script>
+  $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
+
+
+<!-- 在手機上滑鼠點擊只需要點一次-->
+<script>
+$('a').on('click touchend', function(e) {
+var el = $(this);
+var link = el.attr('href');
+window.location = link;
+});
+</script>
+	
+	
+<!-- 下滑版頭選單 -->
+<script language="javascript"> 
+$(function(){
+　$(window).load(function(){
+　　$(window).bind('scroll resize', function(){
+　　var $this = $(this);
+　　var $this_Top=$this.scrollTop();	
+　
+　　if($this_Top < 600){
+　　　$('.ud_menu_wrap').stop().animate({top:"-60px"}, 200 );
+　　　}
+　　　　if($this_Top > 600){
+　　　　$('.ud_menu_wrap').stop().animate({top:"0px"}, 200 );
+　　　 }
+　　}).scroll();
+　});
+});
+</script>
+
+
+  
+<!-- 影片 -->
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script>
+ function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('Youtube01', {
+    videoId: '-Zi7fG9Z0ug', // YouTube Video ID
+    width: 1190,               // Player width (in px)
+    height: 669,              // Player height (in px)
+    playerVars: {
+      autoplay: 1,        // Auto-play the video on load
+      controls: 0,        // Show pause/play buttons in player
+      showinfo: 0,        // Hide the video title
+      modestbranding: 0,  // Hide the Youtube Logo
+      loop: 1,            // Run the video in a loop
+	       playlist: '-Zi7fG9Z0ug',
+			rel:0,
+      fs: 0,              // Hide the full screen button
+      cc_load_policy: 0, // Hide closed captions
+      iv_load_policy: 0,  // Hide the Video Annotations
+      autohide: 0         // Hide video controls when playing
+    },
+    events: {
+      onReady: function(e) {
+        e.target.mute();
+      }
+    }
+  });
+player = new YT.Player('Youtube02', {
+    videoId: '-Zi7fG9Z0ug', // YouTube Video ID
+    width: 640,               // Player width (in px)
+    height: 360,              // Player height (in px)
+    playerVars: {
+      autoplay: 1,        // Auto-play the video on load
+      controls: 0,        // Show pause/play buttons in player
+      showinfo: 0,        // Hide the video title
+      modestbranding: 0,  // Hide the Youtube Logo
+      loop: 1,            // Run the video in a loop
+	       playlist: '-Zi7fG9Z0ug',
+			rel:0,
+      fs: 0,              // Hide the full screen button
+      cc_load_policy: 0, // Hide closed captions
+      iv_load_policy: 0,  // Hide the Video Annotations
+      autohide: 0         // Hide video controls when playing
+    },
+    events: {
+      onReady: function(e) {
+        e.target.mute();
+      }
+    }
+  });
+  
+ }
+ // Written by @labnol 
+</script>
+
+
+
+<style type="text/css">
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Arial, Helvetica, sans-serif, "微軟正黑體"; text-align:left;  }
+img { border:none; padding:0; display:block; outline:none; }
+a { text-decoration:none; }
+strong { font-weight:bold; }
+:focus { outline: 0; }
+
+/*  字體色彩與字級變化  */
+	.txt_index { border-left:6px solid #74ed97; padding-left:10px; }
+	.txt_bigger { font-size:18px; }
+	.color_paix { color:#24b899; }
+	
+
+
+/* 如果使用者視窗寬度 >= 480px */
+
+.pc-hide { display:none;}
+
+	
+/* 最外層包裹_定義滿版與最小寬度 */
+#main_wrap { width:100%; height: auto; margin:0 auto; text-align:left; background: #ffffff; }
+.pc { width:100%; min-width:1200px; height: auto; margin:0 auto; display: block; }
+
+
+/* 上層灰色窄版頭_寬度1180px為核心寬度 */
+.header_wrap { width:100%; height:40px; background-color:#666666; overflow:hidden; position:relative; z-index:10; }
+.header_wrap_inner { width:1200px; height:40px; margin-left:auto; margin-right:auto; overflow:hidden; }
+.header_wrap a { margin-left:50px; display:inline-block; }
+
+
+/* 下滑版頭選單  */
+.ud_menu_wrap { width:100%; height:40px; background-color:#666666; overflow:hidden; position:fixed; z-index:800; top:-40px; }
+.ud_menu { width:1200px; height:40px; margin-left:auto; margin-right:auto; overflow:hidden; position:relative; }
+.ud_menu a { display:inline-block; }
+.menu_ud_logo { width:180px; height:40px; margin-left:50px; margin-top:0px; display:block; float:left; background:url(http://img.udnfunlife.com/art/UDesign/udesign_event_header.png) left center no-repeat }
+.ud_menu ul { list-style:none; width:800px; height:40px; overflow:hidden; position:absolute; top:11px; left: 328px; }
+.ud_menu ul li { color:#ffffff; width:auto; height:20px; border-left:2px solid white; margin-right:50px; float:left;  }
+.ud_menu ul li a { color:#ffffff; font-size:16px; font-weight:normal; line-height:20px; letter-spacing:2px; padding: 0 16px; }
+.ud_menu ul li a:hover { color:#CFCFCF; }
+.ud_menu ul li:last-child { margin-right:0; }
+.ud_menu ul li.event_sp { border-left:none; }
+.ud_menu ul li.event_sp a { color:#ffffff; }
+.ud_menu_a { width:200px; height:40px; overflow:hidden; background-color:#808080; position:absolute; right: 72px; top:0; z-index:100; text-align:center; }
+.ud_menu_a :hover { background-color:#888888; }
+.ud_menu_a p { color:#ffffff; font-size:16px; font-weight:bold; line-height:40px; letter-spacing:3px; }
+.ud_menu_a :hover p { color:#000000; }
+.ud_menu h6.back_to_top { width:60px; height:40px; overflow:hidden; background:url(http://img.udn.com/art/UDesign/event/201606/toysforgrownups/images/back_to_top.png) left center no-repeat; color:#ffffff; font-size:14px; font-weight:bold; line-height:40px; 
+text-align:center; letter-spacing:2px; position:absolute; right:20px; top:0; }
+
+	
+/* basic */
+	h2 {font-size: 33px; letter-spacing: 3px; font-weight: bold; margin-top: 2%; color:#1f98ea;}
+	h3 {font-size: 26px; font-weight: bold; }
+	h4 {font-size: 20px; letter-spacing: 3px; line-height: 1.5; margin: 10px 0; font-weight: normal; padding: 30px 0;}
+	p {font-size: 16px; }
+	a:hover img { opacity:0.9; filter:Alpha(Opacity=70); }
+	.center {text-align: center;}
+	.inner { width: 1200px; margin-right: auto; margin-left: auto; }
+    .wt2_txt{ text-align: center; margin: 68px auto 36px auto; letter-spacing: 3px;}
+	.clear {clear:both;}
+	hr {border: 0.5px solid #2e94d9; width: 55%;}
+	
+	
+/* 版頭 */
+
+	.title_wrap { width:100%; height:768px; background: linear-gradient(73deg, rgba(162, 211, 230,1) -25%,rgba(162, 211, 230,1) -5%,rgba(234, 232, 233,1) 75%,rgba(234, 232, 233,1) 76%); position: relative; }
+	.title { width:1200px; height:100%; margin:0 auto; position:relative; }
+	.title_main { height:auto; z-index:99; text-align: center; padding: 10%;}
+	.title_main h1 { font-size: 60px; margin: 0;color: #ffffff; letter-spacing: 0.3em; font-weight: bold; text-shadow: #a5cfe0 0 0 2em;}
+	.title_main h3 { color: #1f98ea; letter-spacing: 1.3em; font-weight: normal; position: absolute; }
+	.title_main .slog_l {top: 60%; left: 15%;}
+	.title_main .slog_r {top: 60%; right: 13%;}
+	.title_main p { font-size: 18px; color: #ffffff; letter-spacing: 9.6px; margin-top: 15px; text-shadow: #a5cfe0 0 0 2em; }
+	.title_main .txt_en::before {content: "─────"; letter-spacing: 0; margin-right:18px; margin-left: -15px;}
+	.title_main .txt_en::after {content: "─────"; letter-spacing: 0; margin-left:6px;}
+	.title_main .logo { margin: 0 auto;}
+	.title_main .title_pd { position: absolute; top: 51%; left: 27%;}
+	.title_main .date { top: 0; left: 4%;  position: absolute; padding: 2.5% 3% 1.6% 3%; background: #2e94d9;}
+	.title_main .date p { font-size: 20px;border-top: 1px solid; margin-top: 14%; padding: 10px 0; letter-spacing: 2px;}
+	.title_main .award { position: absolute; right: 3%; top: 5%;}
+
+/*waves*/
+@-webkit-keyframes wave {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+@keyframes wave {
+  0% {background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+.wave { width: 100%; position: absolute; height: 200px; top:55%; opacity: .8;
+  background: url("http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/wave01.svg") repeat-x 0%;
+  background-size: contain;
+  -webkit-animation: 10s wave linear infinite;
+          animation: 10s wave linear infinite;
+  box-shadow: inner 0 0 1rem red;
+}
+@-webkit-keyframes wave2 {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+@keyframes wave2 {
+  0% {background-position: 0 0; }
+  100% { background-position: 100% 0; }
+}
+.wave2 { width: 100%; position: absolute; height: 60px; top:67%;
+  background: url("http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/wave02.svg") repeat-x 0%;
+  background-size: contain;
+  -webkit-animation: 16s wave linear infinite;
+          animation: 16s wave linear infinite;
+  box-shadow: inner 0 0 1rem red;
+}
+
+/* film */
+	.film { width:100%; height:auto; overflow:hidden; background-color: #333333; position:relative; text-align: center; padding: 8% 0 5% 0; }	
+	.film_in { width: 1190px; height:669px ; overflow:hidden; margin:0 auto; }
+	.film h4 { color:#fff; }
+	.film img { margin: 0 auto; }
+	
+
+
+/* wt2_intro */
+.wt2_intro { position: relative; margin: 0 auto; padding: 5% 0;}
+.wt2_intro img { margin: 0 auto;}
+.wt2_intro .intro_01 img {float: left;}
+.wt2_intro .award { margin: 12% auto 8% auto;}
+.wt2_intro .txt { background: #2e94d9; height: 478px; padding: 8% 6%; margin-left: 65%;}
+.wt2_intro .txt h2 {color:#fff;}
+.wt2_intro .intro_01 { margin-top: 10%;}
+
+/*slider*/
+.slides { transition-duration: 1s !important;}
+.flex-direction-nav { display:none;}
+.flexslider .slides img { width:auto;}
+.flex-control-paging li a:hover,.flex-control-paging li a.flex-active {background: #74ed97;}
+.flex-control-paging li a {background:#aaaaaa;}
+	
+	
+/*mode*/
+.mode { position: relative; overflow: hidden; font-family: 'PT Sans',sans-serif, "微軟正黑體";}
+.mode hr { float: left; margin-top: 1.2%; }
+.mode .mode_wrap_01 { background:url(http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/mode_01.jpg) right center no-repeat; }
+.mode .mode_wrap_02 { background:url(http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/mode_02.jpg) left center no-repeat; }
+.mode .mode_wrap_03 { background:url(http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/mode_03.jpg) right center no-repeat; }
+.mode .mode_wrap { margin: 4% auto 8% auto; width: 100%; height: auto; overflow: hidden;}
+.mode .text { float: left; padding: 10% 0; letter-spacing: 2px; text-align: justify; margin-left: 7%;}
+.mode .text h1 { color:#2e94d9; font-size: 55px; letter-spacing: 10px; font-weight: bold;}
+.mode .text h3 { color: #fff; border-radius: 50px; background: #74ed97; text-align: center; padding: 12px 0; width: 280px; }
+.mode .text h4 { width: 280px; text-align: justify;}
+.mode .text2 { margin-right: 6%; float: right; text-align: right;}
+.mode .text2 h4, .mode .text2 h3 { margin-left: 28%; }
+	
+/*lang*/
+.lang {position: relative; text-align: center; margin-top: -5%; background:url(http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/lang_bg.png) bottom center no-repeat; padding: 2% 0;}
+.lang img { margin: 0 auto; }
+.lang h2 { margin: 0 auto 8% auto;}
+
+/*dialog*/
+.dialog { position: relative; text-align: center; background:#2e94d9; color:#ffffff; padding: 3% 0 5% 0; margin: 5% 0 8% 0;}
+.dialog .wt2_txt { margin-top:0;}
+.dialog img { margin: 0 auto;}
+.dialog ul { padding: 0 4%;}
+.dialog li { float:left; margin: 0 30px; list-style: none;}
+.dialog p { color:#333333; font-size: 16px;}
+.dialog h2 { color:#ffffff;}
+.dialog h4 { margin: 0; padding: 5px;}
+
+/*tech*/
+.tech { position: relative; text-align: center; }
+.tech hr { float: right; margin-top: 1.2%; }
+.tech .pd02 { position:absolute; left: -2%; }
+.tech .pd03 { position: absolute; top:5%; left: 12%; }
+.tech .pd04 { position: absolute; right: 7.5%; top:0; }
+.tech .pdinfo { position: absolute; left: 8%; top: 64%;}
+.tech ul { float:right;  display: flex; margin-left: 50%; }
+.tech li { background: #efefef; padding: 50px 30px 78px 30px; margin: 0 5px; text-align: center; display: inline-block; width: 33%;}
+.tech span { color:#74ed97; font-size: 60px; font-family: 'PT Sans',sans-serif, "微軟正黑體"; font-weight: bolder;}
+.tech .tech_wrap { margin: 10% auto; position: relative; height: auto;}
+.tech .tech_wrap2 { height: 600px;}
+.tech .tech_wrap2 h3 {position: absolute; top: 54%; left: 8.2%; font-weight: bold;}
+
+/*pdsp*/
+.pdsp { background: #efefef; position: relative; text-align: center; padding: 3.5% 0; font-family: 'PT Sans',sans-serif, "微軟正黑體";}
+.pdsp img { margin: 0 auto; }
+.pdsp .arrow-r { width: 0px; height: 0px; border-left: 10px solid #fff; border-bottom: 10px solid transparent; border-top: 10px solid transparent; float: right; margin: -26px 10px 0 10px; }
+.pdsp del {font-size:14px; color:#333333; letter-spacing: 2px;}
+.pdsp strong { font-size: 43px;}
+.pdsp h4 { color:#2e94d9; margin: -8% 0 0 22%; }
+.pdsp h2 {color:#666666; display:inline-flex; align-items: center; vertical-align:middle; margin-bottom: 3%;}
+.pdsp h2 img { margin-right: 15px;}
+
+/* button */
+.btn-main { background-color: #2e94d9; color: #fff; letter-spacing: 4px; display: inline-block; margin-bottom: 50px; width: 85%; padding: 10px 5px; text-align: center;}
+.btn { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-transition: all .5s ease; -o-transition: all .5s ease; -webkit-transition: all .5s ease; transition: all .5s ease;}
+.btn-main:hover { opacity: 0.6;}
+
+/*media*/
+.media { margin: 4% auto;}
+.media img { margin: 2% auto;}
+.media h3 { margin-left: 5%;}
+	
+/*bar*/
+.spbar { background:#2e94d9; height:75px;}
+.spbar h2 { font-size:24px; font-weight: bold; padding:20px 0; letter-spacing: 2px; margin-top:0; color:#ffffff;}
+.spbar span {letter-spacing:0;}
+	
+
+	
+/*  頁尾行銷說明文字樣式  */
+	.sp_out{ width:100%; height:auto; background:#333333; position:relative; z-index:10; }
+	.sp { width:1100px; height:auto; overflow:hidden; margin:0 auto;  }
+
+	.sp_inner { padding:30px 20px; color:#ffffff; }
+	.sp_inner a {color:#735638;}
+	.sp_inner h3 { font-size:24px; letter-spacing:1px; padding:12px 0px; margin-bottom:12px; color: #ffffff; font-weight: bold;  }
+	.sp_inner h5 { font-size:16px; font-weight:bold; padding:7px 0px; line-height:24px; margin-left:90px; text-indent:-90px; }
+	.sp_inner p { font-size:14px; line-height:18px; }
+	.sp_inner ol { font-size:14px; line-height:18px; list-style-position:outside; list-style-type:decimal; margin-left:40px; margin-bottom:15px; }
+	.sp_inner ol ul { font-size:14px; line-height:18px; list-style-position:outside; list-style-type:square; margin-left:20px; margin-bottom:15px; }
+	.sp_inner li { padding:3px 0px; }	
+
+	.spnote_out{ width:100%; height:auto; background-color:#000000; position:relative; z-index:10; padding-bottom:20px; }
+	.sp_note { width:1100px; height:auto; overflow:hidden; color:#fff; margin-left:auto; margin-right:auto; padding:30px 0; }
+	.sp_note_inner { padding:0 20px 0 20px; }
+	.sp_note_inner h5 { font-size:14px; font-weight:bold; padding:5px 0px; }
+	.sp_note_inner p { font-size:11px; line-height:15px;}
+	.sp_note_inner ol { font-size:11px; list-style-position:outside; list-style-type:decimal; margin-left:40px; }
+	.sp_note_inner ol li { padding:4px 0px; line-height:15px; }
+
+	/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+@media screen and (min-width: 768px) and (max-width: 1440px){
+	#main_wrap { width:100%; height: auto; margin:0 auto; text-align:left; }
+	.title { width:100%;}
+	.title_main .title_pd {left: 30%;}
+	.mode .mode_wrap_01, .mode .mode_wrap_03 { background-position: 38vw;}
+	.mode .mode_wrap_02  { background-position: -15vw;}
+
+}
+	
+	
+	/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+@media screen and (max-width: 481px) {/* 如果使用者視窗寬度 <= 480px */
+
+.mb-hide { display:none;}
+.pc-hide { display:inline;}
+	
+/*  字體色彩與字級變化  */
+.txt_index { border-left:6px solid #74ed97; padding-left:10px; }
+.txt_bigger { font-size:18px; }
+
+/* 最外層包裹_定義滿版與最小寬度 */
+#main_wrap { width:100%; height: auto; margin:0 auto; text-align:left; background: #ffffff; }
+	
+.mb { width:100%; height: auto; margin:0 auto; display: block;  text-align: center; }
+
+/* 上層灰色窄版頭_寬度1180px為核心寬度 */
+.header_wrap { width:100%; height:40px; background-color:#666666; overflow:hidden; position:relative; z-index:10; }
+.header_wrap_inner { width:100%; height:40px; margin-left:auto; margin-right:auto;  overflow:hidden; }
+.header_wrap a { margin-left:2%; display:inline-block; }
+	
+/* 下滑版頭選單 */
+.ud_menu_wrap { width:100%; height:40px; background-color:#666666; overflow:hidden; position:fixed; z-index:800; top:-40px; }
+.ud_menu { width:100%; height:40px; margin-left:auto; margin-right:auto; overflow:hidden; position:relative; }
+.ud_menu a { display:inline-block; }
+.menu_ud_logo { width:180px; height:40px; margin-left:3%; margin-top:0px; display:block; float:left;
+background:url(http://img.udnfunlife.com/art/UDesign/udesign_event_header.png) left center no-repeat }
+.ud_menu ul { list-style:none; display: none; }
+.ud_menu ul li { color:#ffffff; width:auto; height:20px; border-left:2px solid white; margin-right:50px; float:left;  }
+.ud_menu ul li a { color:#ffffff; font-size:16px; font-weight:normal; line-height:20px; letter-spacing:2px; padding: 0 16px; }
+.ud_menu ul li a:hover { color:#CFCFCF; }
+.ud_menu ul li:last-child { margin-right:0; }
+.ud_menu ul li.event_sp { border-left:none; }
+.ud_menu ul li.event_sp a { color:#ffffff; }
+.ud_menu_a { width:200px; height:40px; overflow:hidden; background-color:#808080; position:absolute; right:120px; top:0; z-index:100; text-align:center; display: none;  }
+.ud_menu_a :hover { background-color:#888888; }
+.ud_menu_a p { color:#ffffff; font-size:16px; font-weight:bold; line-height:40px; letter-spacing:3px; }
+.ud_menu_a :hover p { color:#000000; }
+.ud_menu h6.back_to_top { width:60px; height:40px; overflow:hidden; background:url(http://img.udn.com/art/UDesign/event/201606/toysforgrownups/images/back_to_top.png) left center no-repeat; color:#ffffff; font-size:14px; font-weight:bold; line-height:40px; 
+text-align:center; letter-spacing:2px; position:absolute; right:20px; top:0; }
+
+/* title */
+.title_main h1 { font-size: 45px; letter-spacing: 5px; }
+.title_main h3 { font-size: 23px; top: 40%; letter-spacing: 10px; position: absolute;}	
+.title_wrap { width:100%; height: 630px; position: relative; overflow: hidden; } 
+.title_main .txt_en { font-size: 17px; letter-spacing: 5px; margin-left: 10px;}
+.title_main .txt_en::before {content: "";}
+.title_main .txt_en::after {content: "";}
+.title_main .date { padding:5% 5% 6% 5%;}
+.title_main .title_pd { top: 59%; left: -1%; width: 100%;}
+.title_main { padding: 10% 14px;}
+.title_main .slog_r, .title_main .slog_l {top:35%;}
+.title_main .award { width: 50%; padding: 10px; right: 27%; top: 44%;}
+
+.wt2_txt { margin: 40px auto 20px auto;}
+.inner { width:82%; }
+.title, .wt2_intro, .lang, .mode, .dialog, .pdsp, .tech, .media, .spbar  { width:100%; }
+.wt2_intro img, .lang img, .mode img, .dialog img, .pdsp img, .tech img, .media img{ width:100%; }
+.spbar { height: auto;}
+	
+/* 影片RWD */
+.film h4 {letter-spacing: 1px;line-height: 1.6; margin: 20px 0; font-size: 15px;}
+.film p {font-size:13px;}
+.video-container { position: relative; padding-bottom: 44%; padding-top: 30px; height: 0; overflow: hidden; margin: 3.5% 3.5%; }
+.video-container iframe, .video-container object, .video-container embed { top: 0;left: 0; width: 100%; height: 100%; }
+.film img {margin-top:2%;}
+	
+.wt2_intro .flexslider li img, .intro_01 { width:100%;}
+.wt2_intro .txt { height: auto; margin: 0; float: left; padding: 8% 6% 0 6%;}
+	
+/*mode*/
+.mode { height: auto; display: inline; padding: 0 1px;}
+.mode .text {width: 100%; margin: 48% auto 0 auto; padding:0; float: none;}
+.new04 .text img, .mode .text img { width:20%;}
+.mode .pd_03 { margin-bottom: 18px;}
+.mode .mode_wrap_01, .mode .mode_wrap_03 { background-size: contain; height: auto; background-position: 20vw; margin-top: -25%;}
+.mode .mode_wrap_02 { background-size: contain; height: auto; background-position: -20vw; margin-top: -25%;}
+.mode .text h1 { line-height: 1; margin-top: -11%;}
+.mode .text h3 { width: 100%; font-size: 20px; padding: 7px 0;}
+.mode .text h4 { margin-top: 62%; width: 100%; padding: 0; }
+.mode .text2 h4, .mode .text2 h3 { margin-left: 0;}
+
+.lang { background-size: 210%; background-position: center 35%;}
+.dialog { padding: 8% 0; margin: 0;}
+
+.tech {padding-bottom: 10%;}
+.tech .pd03, .tech .pd04, .tech .tech_wrap2 h3, .tech .pdinfo { position: relative; float: none; top: 0; left: 0;}
+.tech .pd04 { width: 60%; margin: 10% 20%;}
+.tech ul { float: none; margin: 0; flex-flow: column;}
+.tech li { width: 100%; padding: 5%; display: flex; margin-bottom: 3%; align-items: center; }
+.tech h4 {text-align:left; margin:0;}
+.tech p {width: 65%;}
+.tech .pdinfo { margin: 20px auto;}
+
+.pdsp { margin-top: 20%;}
+.pdsp h2 { display:inline-block; margin-top: 10%;}
+.btn-main { width:100%;}
+.pdsp h3 { font-size: 20px; letter-spacing: 1px;}
+.pdsp h2 img { margin-right:0;}
+
+.spbar h2 { font-size: 17px; padding: 14px 24px; letter-spacing: 2px;}
+	
+	/*  頁尾行銷說明文字樣式  */
+	.sp_wrap{ width:100%; height:auto; background:#6c6c6c; position:relative; z-index:10;  }
+	.sp { width:100%; height:auto; overflow:hidden; background:#333333;  }
+
+	.sp_inner { padding:20px 6% 30px 6%; }
+	.sp_inner a {color:#735638;}
+	.sp_inner h3 { font-size:1.3em; letter-spacing:1px; padding-top: 8%; font-weight:normal;}
+	.sp_inner h5 { font-size:0.8em; font-weight:bold; padding:2% 0; line-height:1.5em; margin-left:90px; text-indent:-90px;color:#ffffff; }
+	.sp_inner p { font-size:0.5em; line-height:1em; }
+	.sp_inner ol { font-size:11px; line-height:15px; list-style-position:outside; list-style-type:decimal; margin-left:8%; margin-bottom:2%;color:#ffffff; text-align: justify; }
+	.sp_inner ol ul { font-size:11px; line-height:1em; list-style-position:outside; list-style-type:square; margin-left:4%; margin-bottom:2%;color:#ffffff; text-align: justify; }
+	.sp_inner li { padding:2% 0px; }
+
+	.sp_inner td { font-size:13px; padding:2px 10px; border-bottom:1px solid #898989; height:32px; line-height:18px; vertical-align:middle;}
+	.sp_inner th { font-size:13px; padding:2px 10px; border-bottom:1px solid #898989; height:32px; background-color:#cfcfcf; vertical-align:middle; }
+	.td_num { text-align:center; border-right:2px solid #565656; }
+	.td_title { text-align:center; color:#ffffff; font-size:15px; font-weight:bold; padding:2px 10px; border-bottom:1px solid #898989; height:32px; background-color:#18aeb5; }
+
+	.spnote_out{ width:100%; height:215px; background-color:#000000; position:relative; z-index:10; }
+	.sp_note { width:100%; height:auto; overflow:hidden; background-color:#000000; color:#ffffff; margin-left:auto; margin-right:auto; padding:0; }
+	.sp_note_inner { padding:30px 6%; }
+	.sp_note_inner h5 { font-size:14px; font-weight:bold; padding:5px 0px; }
+	.sp_note_inner p { font-size:11px; line-height:15px; text-align: justify;}
+	.sp_note_inner ol { font-size:11px; list-style-position:outside; list-style-type:decimal; margin-left:40px; text-align: justify; margin-bottom:2%; }
+	.sp_note_inner ol li { padding:2% 0px; line-height:15px; text-align: justify; }
+		
+}		
+	
+	
+	
+/*
+http://img.udnfunlife.com/art/UDesign/event/201903/wt2/
+*/
+</style>
+
+</head>
+
+<body>
+
+
+
+
+<!-- 頁面區塊 -->
+
+ <div id="main_wrap"> 
+  
+  
+  <div class="header_wrap">
+	<div class="header_wrap_inner">
+	<a href="https://udesign.udnfunlife.com/mall/Cc1a00.do" target="_blank">
+	<img src="http://img.udn.com/art/UDesign/event/ud_logo/udesign_event_header.png" width="180" /></a>
+	</div><!-- END of header_wrap_innner -->
+	</div><!-- END of header_wrap -->
+ 
+  <!-- 下滑 天 -->
+  
+  
+  <div class="ud_menu_wrap">
+  <div class="ud_menu">
+  	<a href="https://udesign.udnfunlife.com/mall/Cc1a00.do" target="_blank">
+    <div class="menu_ud_logo"></div>
+    </a>
+   
+    <!--<a href="#top"><h6 class="back_to_top">TOP</h6></a>-->
+    <a href="#pdsp"><div class="ud_menu_a"><p>馬上擁有</p></div></a>
+  </div>
+</div>
+ 
+
+    
+    <div class="title_wrap">
+      <div class="wave mb-hide"></div>
+      <div class="wave2 mb-hide"></div>
+      
+      <div class="title">
+        
+        <div class="title_main">
+        <img class="logo" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/logo_wt2.png"><br>
+   		 <h1>實時翻譯耳機</h1>
+   		 <p class="txt_en mb-hide">WT2 TRANSLATER</p>
+   		 <p class="txt_en pc-hide">3.26 ─ 4.26 獨家預購中</p>
+   		 <h3 class="slog_l">即時翻譯</h3>
+   		 <h3 class="slog_r">近在你耳</h3>
+   		 <img class="award" src="http://img.udnfunlife.com/art/udesign/event/201903/wt2/images/award.png">
+   		 <a href="https://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_058_463&dc_cargxuid_0=DU00042218&fbclid=IwAR2bvA5KThGQJiPkP_iqKGOX7w5RotY6qBOOVCBYDR1RLe5KW-8kHfo3BoM" target="_blank">
+   		 	<img class="title_pd" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/title_pd.png">
+   		 </a>
+   		 <a href="https://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_058_463&dc_cargxuid_0=DU00042218&fbclid=IwAR2bvA5KThGQJiPkP_iqKGOX7w5RotY6qBOOVCBYDR1RLe5KW-8kHfo3BoM" target="_blank">
+   		 <div class="date mb-hide">
+   		 	<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/title_date.png">
+   		 	<p class="mb-hide">獨家預購中</p>
+   		 </div>
+   		 </a>
+   		 <div class="clear"></div>
+       </div>
+        
+      </div>
+      
+      
+    </div>
+
+  <div class="spbar center">
+  	<h2>美國 KICKSTARTER、INDIEGOGO 募資超過2千萬，全球贊助破3000人！</h2>
+  </div>
+  <div class="clear"></div>
+
+<!-- Film -->
+ <section class="film">
+  <div class="inner">
+   <img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/icon_01.png">
+   <h2 data-aos="fade-up" data-aos-duration="1500">與世界做朋友，語言不再是障礙。</h2>
+   <h4 data-aos="fade-up" data-aos-duration="1500">我們需要的是進一步透過溝通、對話展現自我，向彼此表達當下最即時的感受。<br>
+WT2 實時翻譯耳機回歸人與人之間直覺的對話方式，以最沒負擔的方式，解放我們的肢體語言。<br>
+簡單、便利、直覺，讓多語對話成為日常，進駐地球村，就是現在！</h4>
+       <div class="film_in mb-hide" data-aos="fade-up" data-aos-duration="1500">	
+    	<div  id="Youtube01">
+ 		 	<iframe width="1280" height="720" src="https://www.youtube.com/embed/-Zi7fG9Z0ug" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       	</div>
+       </div>
+       <div class="video-container pc-hide">  
+       		<div id="Youtube02">
+       		<iframe width="640px" height="360px" src="https://www.youtube.com/embed/w4ZFCrOXhak?autoplay=1&amp;loop=1&amp;playlist=w4ZFCrOXhak&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+       		</div> 
+       </div>   	
+    
+   </div>
+ </section>
+  
+  
+ <!-- wt2 intro -->
+ <div class="wt2_intro">
+   <div class="inner">
+  	<div class="wt2_txt" data-aos="fade-up" data-aos-duration="1500">
+   		<h2>打開、分享、開始聊天</h2>
+   		<h4>WT2 是全世界第一款實現自然交流的智能翻譯耳機，輕巧便利又直覺，<br>帶著它邊走邊聊，讓你幾乎忘掉它的存在！</h4>
+  	</div>
+  	<div class="flexslider" data-aos="fade-in" data-aos-duration="3000">
+  	  <ul class="slides">
+  		<li><img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_01.png"></li>
+  		<li><img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_01-1.png"></li>
+  		<li><img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_01-2.png"></li>
+  	</ul>
+    </div>
+    
+    <div class="intro_01 inner"  data-aos="fade-up" data-aos-duration="3000">
+    	<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/intro_01.jpg">
+    	<div class="txt">
+    		<h2>解放雙手，還原最真實的交流</h2>
+    		<h4>分享一人一機的穿戴式裝置，同步語音通信，讓彼此得以自然、深度久聊，沉浸式對話體驗，盡情表達自我。</h4>
+    	</div>
+ 	</div>
+  </div>
+ </div>
+ <div class="clear"></div>
+ 
+ 
+ <div class="mode">
+ 	<div class="wt2_txt"><hr class="mb-hide"><h2 class="inner">3種使用模式，適用不同情境</h2></div>
+ 		<div class="mode_wrap mode_wrap_01" >
+    		<div class="inner">
+     		<div class="text" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2500">
+     		  <h1>AUTO MODE</h1>
+      		  <h4>自動模式是WT2 最為核心的交流模式，一人一機直接對話，給使用者帶來解放雙手、邊走邊聊、實時翻譯的科幻體驗。</h4>
+       		  <h3>自動模式</h3>
+     		</div>
+     		</div>
+   	 	</div>
+    	<div class="clear"></div>
+    	
+    	<div class="mode_wrap mode_wrap_02">
+    		<div class="inner">
+     		<div class="text text2" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="2500">
+     		  <h1>SPEAK MODE</h1>
+      		  <h4>外放模式為單耳機模式，一方使用耳機，一方使用手機，適合短頻、快速的交流，同時能讓更多人參與對話。</h4>
+       		  <h3>外放模式</h3>
+     		</div>
+     		</div>
+   	 	</div>
+    	<div class="clear"></div>
+    	
+    	<div class="mode_wrap mode_wrap_03" >
+    		<div class="inner">
+     		<div class="text text3" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2500">
+     		  <h1>TOUCH MODE</h1>
+      		  <h4>觸控模式符合用戶使用習慣，同時能夠自由精確的控制發言節奏，能夠滿足大部分噪音場景下的使用。</h4>
+       		  <h3>觸控模式</h3>
+     		</div>
+     		</div>
+   	 	</div>
+    	<div class="clear"></div>
+    	
+</div>
+<div class="clear"></div>
+
+
+<!-- lang -->
+<div class="lang" data-aos="fade-up" data-aos-duration="3000">
+   <div class="inner">
+  	<div class="wt2_txt" data-aos="fade-up" data-aos-duration="1500">
+   		<h2>支援36種語種，全世界88%國家地區</h2>
+  	</div>
+  	<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/icon_lang.png">
+   	<h4>含中、英、德、法、日、西、韓、義等多種語言，多達84種口音，同時支援在線升級，<br>全球部署5台伺服器，透過OTA（Over-The-Air）技術整合引擎持續優化語言種類與準確性，<br>隨時保持最新狀態！</h4>
+  </div>
+</div>
+
+
+<!-- dialog -->
+<div class="dialog">
+   <div class="inner">
+  	<div class="wt2_txt" data-aos="fade-up" data-aos-duration="1500">
+   		<h2>實現外語交流的無限想像</h2>
+  	</div>
+  	<ul data-aos="fade-up" data-aos-duration="3000">
+  	  <li>
+  		<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/icon_d01.png">
+   		<h4>異國婚姻</h4>
+   		<p>輕鬆融入伴侶的家庭與生活</p>
+   	  </li>
+   	  <li>
+  		<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/icon_d02.png">
+   		<h4>商務交流</h4>
+   		<p>打破語言圍籬，會議、演講更自信</p>
+   	  </li>
+   	  <li>
+  		<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/icon_d03.png">
+   		<h4>自由旅行</h4>
+   		<p>旅遊不受限，深入當地美好文化</p>
+   	  </li>
+   	  <li>
+  		<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/icon_d04.png">
+   		<h4>兒童教育</h4>
+   		<p>即時提供孩子外語學習環境</p>
+   	  </li>
+   	</ul>
+   	<div class="clear"></div>
+  </div>
+</div>
+<div class="clear"></div>
+
+<div class="tech" >
+  <div class="wt2_txt" data-aos="fade-up" data-aos-duration="1500"><hr class="mb-hide"><h2 class="inner">超高續航力，暢聊不中斷</h2></div>
+  <div class="inner">
+	<div class="tech_wrap" data-aos="fade-up" data-aos-duration="3000">
+	<img class="pd02 mb-hide" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_02.png">
+		<ul>
+			<li><h4>單次滿電連續對話</h4><p><span>5</span>小時</p></li>
+			<li><h4>結合充電盒使用續航</h4><p style="margin-top: -13px;"><span>12<sup>+</sup></span>小時</p></li>
+			<li><h4>待機續航<br class="mb-hide"><br class="mb-hide"></h4><p><span>30</span>天</p></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+	<div class="tech_wrap tech_wrap2" data-aos="fade-up" data-aos-duration="3000">
+		<img class="pd03" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_03.png">
+		<img class="pd04" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_04.png">
+	    <h3>更多優點，待你挖掘 ...</h3>
+		<img class="pdinfo" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_info02.png">
+	</div>
+	<div class="clear"></div>
+  </div>
+</div>
+<div class="clear"></div>
+
+<!-- pdsp -->
+<a name="pdsp"></a>
+<div class="pdsp">
+   <div class="inner">
+  	<div data-aos="fade-up" data-aos-duration="1500">
+   		<h2><img src="https://udesign.udnfunlife.com/mall/images/rwd/logo-pin.png">獨家首賣</h2>
+  	</div>
+  	<div data-aos="fade-up" data-aos-duration="3000">
+  	    <a href="https://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_058_463&dc_cargxuid_0=DU00042218&fbclid=IwAR2bvA5KThGQJiPkP_iqKGOX7w5RotY6qBOOVCBYDR1RLe5KW-8kHfo3BoM" target="_blank">
+  		<img style="opacity: unset;" src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/pd_05.png">
+  		</a>
+   		<h4><del>原價約NT$7400(US$239)</del>  優惠價 NT$ <strong>5980</strong></h4>
+   	</div>
+   	<a class="btn-main btn" data-aos="fade-up" data-aos-duration="3000" href="https://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_058_463&dc_cargxuid_0=DU00042218&fbclid=IwAR2bvA5KThGQJiPkP_iqKGOX7w5RotY6qBOOVCBYDR1RLe5KW-8kHfo3BoM" target="_blank"><h3>多語言對話生活 即刻展開</h3><i class="arrow-r"></i></a>
+   	
+   	<div class="clear"></div>
+   </div>
+</div>
+
+<!-- media -->
+<div class="media" data-aos="fade-up" data-aos-duration="3000">
+   <div class="inner">
+   <h3>國際媒體宣傳</h3>
+  	<img src="http://img.udnfunlife.com/art/UDesign/event/201903/wt2/images/media.jpg">
+   </div>
+</div>
+
+
+    
+    
+    
+    
+  <!-- 說明頁 開始-->	
+	<div class="sp_out">
+	<div class="sp">
+	<div class="sp_inner">
+	<h3>WT2實時翻譯耳機，有.設計獨家首賣限時優惠中</h3>
+	<h5><span class="txt_index">活動期間&nbsp;&nbsp;</span><span class="txt_bigger">3/26 - 4/26</span></h5>
+	<!--
+	<h5><span class="txt_index">活動內容&nbsp;&nbsp;</span></h5>
+  
+	<ol>
+		<li>活動期間購買Moshi系列商品，單筆消費贈送 Moshi Café 飲品券一張 ( 可於 Moshi Café 門市免費兌換價值 NT$100 元飲品，超過可補差額，無使用期限與消費門檻，外帶與內用均可 ) 。單一帳戶最高送一張，恕不再往上累積，票券將依訂單成立順序依序贈送，共80張，送完為止。得獎者將於2018年11月1日前由email通知，實際票券以主辦單位最終提供為主。</li>
+		<li>新會員首購贈500折價金，詳情請見相關<a href="http://udesign.udnfunlife.com/mall/cus/event/eventPage.do?url=http://img.udnfunlife.com/art/udesign/event/201810/new_member/info.html&eventpage=202712311&kdid=eventPage" target="_blank">活動辦法</a></li>
+  	</ol>
+    -->
+  	<h5><span class="txt_index">活動辦法&nbsp;&nbsp;</span></h5>
+  
+	<ol>
+	<li>實付金額 = 商品售價－購物金（或折價金）折抵及其它折扣－運費－服務費。</li>
+	<li>符合活動資格之訂單，如另行取消、退貨、非商品瑕疵之換貨，則該筆訂單不得要求入列計算。</li>
+	<li>本活動排除「募資預購」、「預購」、「指定交貨日」、「加價購」、「競標商品」、「部份特殊性票券」、「特殊性活動」（特殊性活動會另行公告，視特殊活動公告而定）。</li>
+  	</ol>
+  
+  
+  
+	</div><!-- end of sp_inner  -->
+	</div><!-- end of sp  -->
+	</div><!-- end of sp_wrap  -->
+<!-- 說明頁 結束-->
+	
+
+
+<!-- 注意事項 開始-->
+	<div class="spnote_out">
+	<div class="sp_note">
+	<div class="sp_note_inner">
+	<h5><span>注意事項</span></h5>
+	<ol>
+<li>本活動由 有.設計uDesign 所舉辦，參加者於參加本活動之同時，即同意接受本活動注意事項之規範，如有違反本活動注意事項之行為，有.設計uDesign 得取消其參加或得獎資格，並對於任何破壞本活動之行為保留相關權利。</li>
+<li>參加者保證所有填寫或提出之資料均為真實且正確，且未冒用或盜用任何第三人之資料。如有不實或不正確之情事，將被取消參加資格。</li>
+<li>如有任何因電腦、網路、電話、技術或不可歸責於 有.設計uDesign 之事由，而使參加者所寄出或登錄之資料有遲延、遺失、錯誤、無法辨識或毀損之情況，有.設計uDesign 不負任何法律責任，參加者亦不得因此異議。</li>
+<li>有.設計uDesign 有權決定取消、終止、修改或暫停本活動。</li>
+	</ol>
+	</div><!-- end of sp_note_inner  -->
+	</div><!-- end of sp_note  -->
+	</div><!-- end of spnote_out  -->
+<!-- 注意事項 結束-->
+    
+    
+    
+    
+ 
+ 
+ 
+ </div><!-- end of main_wrap -->
+  
+  
+  
+  
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>  
+  
+  
+
+
+  
+</body>
+</html>
