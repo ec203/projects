@@ -1,0 +1,781 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html>
+<html xmlns:og='http://ogp.me/ns#'>
+<head>
+	<title>有.設計 uDesign | moshi城市漫遊</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta property="og:title" content="有.設計 uDesign | moshi城市漫遊">
+	<meta property="og:description" content="moshi">
+	<meta property="og:image" content="">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	
+
+<!-- 在手機上滑鼠點擊只需要點一次-->
+<script>
+$('a').on('click touchend', function(e) {
+var el = $(this);
+var link = el.attr('href');
+window.location = link;
+});
+</script>
+	
+	
+<!-- 下滑版頭選單 -->
+<script language="javascript"> 
+$(function(){
+　$(window).load(function(){
+　　$(window).bind('scroll resize', function(){
+　　var $this = $(this);
+　　var $this_Top=$this.scrollTop();	
+　
+　　if($this_Top < 600){
+　　　$('.ud_menu_wrap').stop().animate({top:"-60px"}, 200 );
+　　　}
+　　　　if($this_Top > 600){
+　　　　$('.ud_menu_wrap').stop().animate({top:"0px"}, 200 );
+　　　 }
+　　}).scroll();
+　});
+});
+</script>
+
+
+
+<style type="text/css">
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Arial, Helvetica, sans-serif, "微軟正黑體"; text-align:left;  }
+img { border:none; padding:0; display:block; outline:none; }
+a { text-decoration:none; }
+strong { font-weight:bold; }
+:focus { outline: 0; }
+
+/*  字體色彩與字級變化  */
+	.txt_index { border-left:6px solid #735638; padding-left:10px; }
+	.txt_bigger { font-size:18px; }
+	.color_paix { color:#24b899; }
+	
+
+
+/* 如果使用者視窗寬度 >= 480px */
+
+.pc-hide { display:none;}
+	
+/* 最外層包裹_定義滿版與最小寬度 */
+#main_wrap { width:100%; height: auto; margin:0 auto; text-align:left; background: #ffffff; }
+.pc { width:100%; min-width:1200px; height: auto; margin:0 auto; display: block; }
+
+
+/* 上層灰色窄版頭_寬度1180px為核心寬度 */
+.header_wrap { width:100%; height:40px; background-color:#735638; overflow:hidden; position:relative; z-index:10; }
+.header_wrap_inner { width:1200px; height:40px; margin-left:auto; margin-right:auto; overflow:hidden; }
+.header_wrap a { margin-left:50px; display:inline-block; }
+
+
+/* 下滑版頭選單  */
+.ud_menu_wrap { width:100%; height:40px; background-color:#735638; overflow:hidden; position:fixed; z-index:800; top:-40px; }
+.ud_menu { width:1200px; height:40px; margin-left:auto; margin-right:auto; overflow:hidden; position:relative; }
+.ud_menu a { display:inline-block; }
+.menu_ud_logo { width:180px; height:40px; margin-left:50px; margin-top:0px; display:block; float:left;
+				background:url(http://img.udnfunlife.com/art/UDesign/udesign_event_header.png) left center no-repeat }
+.ud_menu ul { list-style:none; width:800px; height:40px; overflow:hidden; position:absolute; top:11px; left: 328px; }
+.ud_menu ul li { color:#ffffff; width:auto; height:20px; border-left:2px solid white; margin-right:50px; float:left;  }
+.ud_menu ul li a { color:#ffffff; font-size:16px; font-weight:normal; line-height:20px; letter-spacing:2px; padding: 0 16px; }
+.ud_menu ul li a:hover { color:#CFCFCF; }
+.ud_menu ul li:last-child { margin-right:0; }
+.ud_menu ul li.event_sp { border-left:none; }
+.ud_menu ul li.event_sp a { color:#ffffff; }
+.ud_menu_a { width:200px; height:40px; overflow:hidden; background-color:#808080; position:absolute; right: 72px; top:0; z-index:100; text-align:center; }
+.ud_menu_a :hover { background-color:#67c1c5; }
+.ud_menu_a p { color:#ffffff; font-size:16px; font-weight:bold; line-height:40px; letter-spacing:3px; }
+.ud_menu_a :hover p { color:#000000; }
+.ud_menu h6.back_to_top { width:60px; height:40px; overflow:hidden; background:url(http://img.udn.com/art/UDesign/event/201606/toysforgrownups/images/back_to_top.png) left center no-repeat; color:#ffffff; font-size:14px; font-weight:bold; line-height:40px; 
+text-align:center; letter-spacing:2px; position:absolute; right:20px; top:0; }
+
+	
+/* basic */
+	h2 {font-size: 26px; letter-spacing: 3px; font-weight: bold; margin-top: 12px;}
+	h3 {font-size: 1.17em; font-weight: bold; }
+	h4 { letter-spacing: 3px; line-height: 1.5; margin: 10px 0;}
+	p {font-size: 13px; line-height: 1.5;}
+	a:hover img { opacity:0.9; filter:Alpha(Opacity=70); }
+	.center {text-align: center;}
+	.inner {width: 1120px; margin-left: auto; margin-right: auto;}
+    .moshi_title{ text-align: center; margin: 68px auto 36px auto; letter-spacing: 3px;}
+	.clear {clear:both;}
+	
+	
+/* 版頭 */
+	.title_wrap { width:100%; height:700px; background:url(http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/title.jpg) no-repeat center center ; }
+	.title { width:1200px; height:100%; margin:0 auto; position:relative; }
+	.title_main { width:600px; height:auto; z-index:99; }
+	.title_main h1 {font-size: 77px; position: absolute; top: 17%; right: 17%; margin: 0; -ms-writing-mode: tb-rl; -webkit-writing-mode: vertical-rl; writing-mode: vertical-rl; color: #fff; letter-spacing: 0.25em; font-weight: bold;}
+	.title_main h3 {font-size: 28px; line-height: 2; position: absolute; top: 18.5%; right: 28%; margin: 0; color: #fff; letter-spacing: 0.6em; -ms-writing-mode: tb-rl; -webkit-writing-mode: vertical-rl; writing-mode: vertical-rl; font-weight: bold;}
+	.title_main p {font-size: 15px; line-height: 2; position: absolute; top: 18.5%; right: 14%; margin: 0; color: #fff; letter-spacing: 0.3em; -ms-writing-mode: tb-rl; -webkit-writing-mode: vertical-rl; writing-mode: vertical-rl; }
+	.title_main img { display: block; max-width: 100%; vertical-align: middle; top: 85%; left: 35%; -webkit-transform: none; position: absolute;}
+	.title_main img.title_arrow { display:block; width:87px; height:55px; overflow:hidden; margin:50px 0 0 160px; }
+	.title_duration { width:759px; height:100px; overflow:hidden; position:absolute; bottom:4vh; z-index:99; }
+
+/** about **/
+.about { position: relative; overflow:hidden; background: #ece8e3; height: 800px; }
+.about .concept { display:block; overflow:hidden; float:left; box-sizing:border-box; margin: 0 15px;width: 343px;}
+.about .last_col { width:100%; overflow:hidden; float:left;  margin-right:0; box-sizing:border-box;}
+.about img { display:block; width: 100%; height: auto;}
+.about p { height: 108px; overflow: hidden; margin: 0 auto; background: #000; color: #fff; padding: 15px 20px; line-height: 1.6; opacity: 0.75; margin-top: -31%; letter-spacing: 1.3px; }
+.about .arrow {
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin: 3% 0 0 47.5%;
+    padding: 25px;}
+	
+
+
+/* newitem */
+.newitem { position: relative; width: 1190px; margin: 0 auto;}
+.newitem h3 { font-size: 1.3em;  line-height: 1.5;}
+.newitem h3 span { font-size: 13px; letter-spacing: 1.5px; font-weight: 800;}
+.newitem p { font-size:14px; line-height:20px; padding:2px 0px; }
+.newitem .text img { float:right; margin-top: 25px;}
+
+.one_wrap h2 , .new04 h2 , .two_wrap h2 , .award h2 { margin-top: 12px; font-size:35px; font-weight:lighter;  }
+.award .text h2 {padding:12px 0px 6px 0px;}
+.one_wrap h2 span , .new04 h2 span ,.two_wrap h2 span , .award h2 span { font-size:18px; font-weight:normal; }	
+.one_wrap img,.new04 img { margin:20px 0px; }
+.one_wrap .text { width: 33%; overflow: hidden; float: left; top: 13%; position: absolute; left: 10%; color: #fff; letter-spacing: 3px; text-shadow: #888 0 0 1.5em; }
+
+.new04 .text {width: 32%; overflow: hidden; float: left; top: 78%; position: absolute; left: 62%; color: #fff; letter-spacing: 3px; text-shadow: #888 0 0 1.5em; }
+.new04 .text img , .reddot .text img { float:right; margin-top: 25px;}
+
+.two_wrap { margin-bottom:20px; }
+.two_wrap .pd_left { float:left; margin-right:20px; }
+.two_wrap .pd_right { float:left; }
+.two_wrap .pd_left .text { width:41.5%; overflow:hidden; margin:0 auto; color: #fff; margin-top: -20.5%; left: 3.5%; letter-spacing: 2px; position: absolute;  text-shadow: #bbb 0 0 1.5em; padding:10px; }
+.two_wrap .pd_right .text { width:41%; overflow:hidden; margin:0 auto; color: #fff; margin-top: -20.5%; right: 5%; letter-spacing: 2px; position: absolute;  text-shadow: #bbb 0 0 1.5em; padding:10px; }
+.new04 .cp {background: #333; padding: 3px 13px;  margin-top: 18px; width: 85%; color:#fff;}
+.two_wrap .pd_left .sprice {font-size: 15px; letter-spacing: 1px; margin-top: 5px; font-weight: bold; }	
+
+/* RFID包 */
+.rfid .pd_left ,.rfid .pd_right { border: 2px solid #efefef; width: 553px; float:left; margin: 0 10px; }	
+.rfid { position: relative; width: 1190px; margin: 0 auto; padding: 0 20px; text-align: center;}
+.rfid .text{ padding: 20px; letter-spacing: 2px;}
+
+	
+/*reddot*/
+.reddot { background: #ece8e3; position: relative; overflow: hidden; margin-top: 5%; }
+.reddot .text{ background: #000; color: #fff; width: 33%; float: left; margin-left: 20px; padding: 38px 45px; letter-spacing: 2px; }
+.reddot p { font-size:14px; line-height: 2;}
+.reddot .pd_01 , .reddot .pd_02{ float:left; margin-bottom: 20px;}
+.reddot .pd_03 {float:left; margin-bottom: 70px;}
+.reddot .text2 { width: 47%; margin-right: 20px; margin-left: 0; padding: 28px 45px;}
+.reddot .text3 { width: 47%; padding: 28px 45px;}
+
+	
+/*other*/
+.add {margin:5% auto;}
+.add .content {margin:20px 0;}
+.add h3{letter-spacing: 3px;}
+.add .add_pd { position: relative; width: 18.5%; margin-right: 20px; float: left; }
+.add .image { display: block;  width: 100%; height: auto; }
+.add h2 span {font-size:13px; font-weight:normal; }
+.add h2 {font-weight:normal;}
+.add .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.add .add_pd:hover .overlay { opacity: 0.75;}
+
+.add .text { color: white; font-size: 16px; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; width:80%; letter-spacing: 2px; line-height: 1.5; }
+
+
+/*cafe*/
+.gallery { position: relative; width: 1190px; margin: 5% auto;}
+.gallery .text { background: #000; color: #fff; padding: 26px 108px; letter-spacing: 3px; line-height: 2;}		
+.gallery p { font-size:14px; }
+.gallery h2 { margin-top: -7px;}	
+	
+
+.spbar {background:#52b8b2; color:#fff; height:80px;}
+.spbar h2{font-size:23px; font-weight: bold; line-height: 3.6; letter-spacing: 4px;}
+.spbar span {letter-spacing:0;}
+
+
+	
+/* button */
+
+.btn {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 0;
+  text-align: center;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-radius: 5px;
+}
+
+.btn-main {
+  border: 1px solid #efefef;
+	background-color: #efefef;
+    color: #666;
+    font-size: 19px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.btn-main:hover { opacity: 0.6;}
+	
+
+	
+/*  頁尾行銷說明文字樣式  */
+	.sp_out{ width:100%; height:auto; background:#ece8e3; position:relative; z-index:10; }
+	.sp { width:1100px; height:auto; overflow:hidden; margin:0 auto;  }
+
+	.sp_inner { padding:30px 20px; color:#523f2c; }
+	.sp_inner a {color:#735638;}
+	.sp_inner h3 { font-size:24px; letter-spacing:1px; padding:12px 0px; margin-bottom:12px; color: #735638; font-weight: bold;  }
+	.sp_inner h5 { font-size:16px; font-weight:bold; padding:7px 0px; line-height:24px; margin-left:90px; text-indent:-90px; }
+	.sp_inner p { font-size:14px; line-height:18px; }
+	.sp_inner ol { font-size:14px; line-height:18px; list-style-position:outside; list-style-type:decimal; margin-left:40px; margin-bottom:15px; }
+	.sp_inner ol ul { font-size:14px; line-height:18px; list-style-position:outside; list-style-type:square; margin-left:20px; margin-bottom:15px; }
+	.sp_inner li { padding:3px 0px; }	
+
+	.spnote_out{ width:100%; height:auto; background-color:#735638; position:relative; z-index:10; padding-bottom:20px; }
+	.sp_note { width:1100px; height:auto; overflow:hidden; color:#fff; margin-left:auto; margin-right:auto; padding:30px 0; }
+	.sp_note_inner { padding:0 20px 0 20px; }
+	.sp_note_inner h5 { font-size:14px; font-weight:bold; padding:5px 0px; }
+	.sp_note_inner p { font-size:11px; line-height:15px;}
+	.sp_note_inner ol { font-size:11px; list-style-position:outside; list-style-type:decimal; margin-left:40px; }
+	.sp_note_inner ol li { padding:4px 0px; line-height:15px; }
+
+	/*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+
+	
+	
+	
+
+	
+@media screen and (max-width: 480px) {/* 如果使用者視窗寬度 <= 480px */
+
+.mb-hide {display:none;}
+.pc-hide { display:inline;}
+/*  字體色彩與字級變化  */
+.txt_index { border-left:6px solid #735638; padding-left:10px; }
+.txt_bigger { font-size:18px; }
+
+/* 最外層包裹_定義滿版與最小寬度 */
+#main_wrap { width:100%; height: auto; margin:0 auto; text-align:left; background: #ffffff; }
+
+.mb { width:100%; height: auto; margin:0 auto; display: block;  text-align: center; }
+
+
+/* 上層灰色窄版頭_寬度1180px為核心寬度 */
+.header_wrap { width:100%; height:40px; background-color:#735638; overflow:hidden; position:relative; z-index:10; }
+.header_wrap_inner { width:100%; height:40px; margin-left:auto; margin-right:auto;  overflow:hidden; }
+.header_wrap a { margin-left:2%; display:inline-block; }
+	
+/* 下滑版頭選單 */
+.ud_menu_wrap { width:100%; height:40px; background-color:#735638; overflow:hidden; position:fixed; z-index:800; top:-40px; }
+.ud_menu { width:100%; height:40px; margin-left:auto; margin-right:auto; overflow:hidden; position:relative; }
+.ud_menu a { display:inline-block; }
+.menu_ud_logo { width:180px; height:40px; margin-left:3%; margin-top:0px; display:block; float:left;
+background:url(http://img.udnfunlife.com/art/UDesign/udesign_event_header.png) left center no-repeat }
+.ud_menu ul { list-style:none; display: none; }
+.ud_menu ul li { color:#ffffff; width:auto; height:20px; border-left:2px solid white; margin-right:50px; float:left;  }
+.ud_menu ul li a { color:#ffffff; font-size:16px; font-weight:normal; line-height:20px; letter-spacing:2px; padding: 0 16px; }
+.ud_menu ul li a:hover { color:#CFCFCF; }
+.ud_menu ul li:last-child { margin-right:0; }
+.ud_menu ul li.event_sp { border-left:none; }
+.ud_menu ul li.event_sp a { color:#ffffff; }
+.ud_menu_a { width:200px; height:40px; overflow:hidden; background-color:#808080; position:absolute; right:120px; top:0; z-index:100; text-align:center; display: none;  }
+.ud_menu_a :hover { background-color:#70c0ff; }
+.ud_menu_a p { color:#ffffff; font-size:16px; font-weight:bold; line-height:40px; letter-spacing:3px; }
+.ud_menu_a :hover p { color:#000000; }
+.ud_menu h6.back_to_top { width:60px; height:40px; overflow:hidden; background:url(http://img.udn.com/art/UDesign/event/201606/toysforgrownups/images/back_to_top.png) left center no-repeat; color:#ffffff; font-size:14px; font-weight:bold; line-height:40px; 
+text-align:center; letter-spacing:2px; position:absolute; right:20px; top:0; }
+
+/*basic*/
+.title_main h1 { font-size: 48px; right: 13%;}
+.title_main h3 {font-size: 23px; right: 30%; letter-spacing: 0.5em; line-height: 1.7;}	
+.title_wrap { width:100%; height: 360px; position: relative; overflow: hidden; background-size: cover; background-position: 50% 0; }
+.title_wrap img { position: absolute; height: 65%;width: auto;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(5%,25%);}
+.title_main p { font-size: 10px; right: 8%;}
+	
+.moshi_title { margin: 40px auto 20px auto;}
+.inner { width:80%; }
+.title, .about, .newitem, .rfid, .reddot, .add, .gallery { width:100%; }
+.about img , .newitem img, .rfid img, .reddot img, .add img, .gallery img { width:100%; }
+
+/*about*/
+.about .concept { width:auto;}
+.about { height: auto; }	
+.about .arrow { margin: 0 0 10% 41%;}
+.about p { margin-top: -34%; padding: 12px 15px;  letter-spacing: 1px; height: 102px;}	
+/*newitem*/
+.one_wrap .text, .two_wrap .pd_left .text, .two_wrap .pd_right .text, .new04 .text { width: 100%; display: inline-block; position: relative; text-shadow: none; color: #666;  padding: 10px 20px 20px 20px; left: 0; top: 0; margin:0 auto; }	
+.newitem img{ width: 100%;}
+.one_wrap .text,.two_wrap .pd_left .text,.two_wrap .pd_right .text,.new04 .text {width:100%; display: inline-block;}
+.two_wrap .pd_left { margin:auto;}
+.two_wrap .pd_left img ,.two_wrap .pd_right img, .one_wrap img, .new04 img { height: 270px; object-fit: cover;}
+.one_wrap img { object-position: 70%;}
+.new04 img { object-position: 35%;}
+.one_wrap h2, .new04 h2, .two_wrap h2, .award h2 { margin-top: -30px;}
+.one_wrap img, .new04 img {margin:auto;}
+.new04  .cp { width:100%; text-align: center; font-size: 15px;}
+	
+/*rfid*/
+.rfid .pd_left, .rfid .pd_right { width:auto; margin:10px;}
+.rfid .text h3 { font-size: 1.4em; font-weight: normal;}
+.rfid .text { padding: 17px 20px 0px 20px;}
+	
+/*reddot*/
+.reddot .text {width: 100%; margin: 0 auto; margin: -20px auto 20px auto; padding: 25px 36px 15px 36px;}
+.new04 .text img, .reddot .text img { width:20%;}
+.reddot .pd_03 { margin-bottom: 18px;}
+	
+/*add*/
+.add .add_pd {width: 30%; margin: 0 10px 10px 0;}
+.add { padding: 10px 0 10px 20px;}
+.add .text h2 { font-size: 21px;}
+.add .text {font-size: 14px; width:90%; letter-spacing: 1.5px;}
+	
+/*cafe*/
+.gallery .text {padding:26px;}
+.gallery { margin-bottom: 0;}
+/* button */
+
+.btn {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 0;
+  text-align: center;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-radius: 5px;
+}
+
+.btn-main {
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    color: #666;
+    font-size: 19px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 0 15px 24px 15px;
+    width: 92%;
+}
+
+.btn-main:hover { opacity: 0.6;}
+		
+
+	
+	/*  頁尾行銷說明文字樣式  */
+	.sp_wrap{ width:100%; height:auto; background:#6c6c6c; position:relative; z-index:10;  }
+	.sp { width:100%; height:auto; overflow:hidden; background:#ece8e3;  }
+
+	.sp_inner { padding:20px 6% 30px 6%; }
+	.sp_inner a {color:#735638;}
+	.sp_inner h3 { font-size:1.3em; letter-spacing:1px; padding-top: 8%; font-weight:normal;}
+	.sp_inner h5 { font-size:0.8em; font-weight:bold; padding:2% 0; line-height:1.5em; margin-left:90px; text-indent:-90px;color:#523f2c; }
+	.sp_inner p { font-size:0.5em; line-height:1em; }
+	.sp_inner ol { font-size:11px; line-height:15px; list-style-position:outside; list-style-type:decimal; margin-left:8%; margin-bottom:2%;color:#523f2c; text-align: justify; }
+	.sp_inner ol ul { font-size:11px; line-height:1em; list-style-position:outside; list-style-type:square; margin-left:4%; margin-bottom:2%;color:#ffffff; text-align: justify; }
+	.sp_inner li { padding:2% 0px; }
+
+	.sp_inner td { font-size:13px; padding:2px 10px; border-bottom:1px solid #898989; height:32px; line-height:18px; vertical-align:middle;}
+	.sp_inner th { font-size:13px; padding:2px 10px; border-bottom:1px solid #898989; height:32px; background-color:#cfcfcf; vertical-align:middle; }
+	.td_num { text-align:center; border-right:2px solid #565656; }
+	.td_title { text-align:center; color:#ffffff; font-size:15px; font-weight:bold; padding:2px 10px; border-bottom:1px solid #898989; height:32px; background-color:#18aeb5; }
+
+	.spnote_out{ width:100%; height:215px; background-color:#735638; position:relative; z-index:10; }
+	.sp_note { width:100%; height:auto; overflow:hidden; background-color:#735638; color:#ffffff; margin-left:auto; margin-right:auto; padding:0; }
+	.sp_note_inner { padding:30px 6%; }
+	.sp_note_inner h5 { font-size:14px; font-weight:bold; padding:5px 0px; }
+	.sp_note_inner p { font-size:11px; line-height:15px; text-align: justify;}
+	.sp_note_inner ol { font-size:11px; list-style-position:outside; list-style-type:decimal; margin-left:40px; text-align: justify; margin-bottom:2%; }
+	.sp_note_inner ol li { padding:2% 0px; line-height:15px; text-align: justify; }
+		
+}		
+	
+	
+	
+/*
+http://img.udnfunlife.com/art/UDesign/event/201809/moshi/
+*/
+</style>
+</head>
+<body>
+
+
+<!-- 頁面區塊 -->
+
+ <div id="main_wrap"> 
+  
+  
+  <div class="header_wrap">
+	<div class="header_wrap_inner">
+	<a href="https://udesign.udnfunlife.com/mall/Cc1a00.do" target="_blank">
+	<img src="http://img.udn.com/art/UDesign/event/ud_logo/udesign_event_header.png" width="180" /></a>
+	</div><!-- END of header_wrap_innner -->
+	</div><!-- END of header_wrap -->
+ 
+  <!-- 下滑 天 -->
+  
+  
+  <div class="ud_menu_wrap">
+  <div class="ud_menu">
+  	<a href="https://udesign.udnfunlife.com/mall/Cc1a00.do" target="_blank">
+    <div class="menu_ud_logo"></div>
+    </a>
+   
+    <a href="#top"><h6 class="back_to_top">TOP</h6></a>
+  </div>
+</div>
+ 
+
+    
+    <div class="title_wrap">
+      <div class="title">
+        <div class="title_main">
+         <!--<p>SEP.10 ─ OCT.09</p>-->
+   		 <h1>城市漫遊</h1>
+   		 <h3>說走就走<br>踏上理想日常</h3>
+   		 <img class="mb-hide" src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/title_text2.png">
+       </div>
+      </div>
+    </div>
+
+
+
+<!-- ABOUT-->
+ <section class="about">
+  <div class="inner">
+  <div class="moshi_title">
+   <h2>關於 Moshi</h2>
+   <h4>創造非凡，將經典美學融入3C生活</h4>
+  </div>
+   <div class="concept">
+  	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/about_01.jpg">
+  	<p>從材料挑選到外型設計，精雕細琢著每個環節，展現非凡優質的獨特品味。</p>
+  	<h4 class="center">細 緻</h4>
+   </div>
+   <div class="concept">
+  	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/about_02.jpg">
+  	<p>堅持對全球環境保護盡一份心力。不只反映在產品設計美學裡，還能在材質的耐久性、可重複利用性等，並降低生產過程中對人體及環境有害的物質。</p>
+  	<h4 class="center">環 保</h4>
+   </div>
+   <div class="concept">
+  	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/about_03.jpg">
+  	<p>擁有優異的品質、極簡的風格及符合現代時尚美學，打造日常時尚風格。</p>
+  	<h4 class="center">實 用</h4>
+   </div>
+   <div class="arrow"></div>
+   </div>
+ </section>
+  
+  
+  <!-- NEW -->
+  
+  <div class="newitem">
+  
+  	<div class="moshi_title">
+   		<h6>NEW ARRIVAL</h6>
+   		<h2>TREYA 全新系列</h2>
+  	</div>
+   
+    <div class="one_wrap">
+     <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033104" target="_blank">
+      <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/new_01.jpg">
+      </a>
+      <div class="text"><h3><span>TREYA BRIEFCASE</span><br>超輕量皮革劍橋筆電包</h3><br>
+        <p class="mb-hide">超乎於一般的筆記型電腦公事包，內有多個夾層和筆電專屬襯墊空間，讓您井然有序收納，提供全新、全方位的攜帶方案。</p><br>
+        <h2><span>NT$</span> 4,500 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033104" target="_blank"><img class="mb-hide" src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+      </div>
+    </div>
+   <div class="clear"></div>
+    
+   <div class="two_wrap">
+     <div class="pd_left">
+     <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033117" target="_blank">
+     <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/new_02.jpg">
+     </a>
+     <div class="text"><h3><span>TREYA CLUTCH</span><br>超輕量皮革劍橋手拿包</h3><br>
+        <p class="mb-hide">為您的日常出遊而打造的簡約高雅設計，搭配可拆式的環保 Vegan 皮革肩揹帶，不只可當斜肩小包攜帶、亦可當作手拿包使用。</p><br>
+        <h2><span>NT$</span> 1,290  <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033117" target="_blank"><img class="mb-hide" src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+        <!--<p class="sprice"> 加購價 NT$ 650 ( 指定系列 )</p>-->
+      </div>
+     </div>
+     <div class="pd_right">
+     <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033103" target="_blank">
+     <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/new_03.jpg"></a>
+     <div class="text"><h3><span>TREYA LITE</span><br>超輕量皮革三用劍橋包Lite</h3><br>
+        <p class="mb-hide">嚴選超輕量與耐用材質，包內寬敞的收納空間，不僅可收納許多隨身物品，更設計獨特RFID 防盜拉鍊袋，完整保護隨身物件。</p><br>
+        <h2><span>NT$</span> 5,900 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033103" target="_blank"><img class="mb-hide" src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+        
+      </div>
+     </div>
+   </div>
+   <div class="clear"></div>
+    
+   <div class="new04">
+   <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033102" target="_blank"><img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/new_04.jpg"></a>
+   <div class="text"><h3><span>TREYA</span><br>超輕量皮革三用劍橋包</h3><br>
+        <p class="mb-hide">靈感源自於歐洲經典長型單肩包，將工作通勤的肩背包、便利的後背包、會議洽公的手提包等三款合而為一，滿足不同場合的需求。</p><br>
+        <h2><span>NT$</span> 6,900 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00033102" target="_blank"><img class="mb-hide" src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+        <!--<p class="cp">享1元加購 Treya Clutch 劍橋手拿包</p>-->
+      </div>
+   </div>
+   <div class="clear"></div>
+   
+ </div> 
+ <div class="clear"></div>
+  
+  
+ <div class="rfid">
+    
+     <div class="moshi_title">
+   		<h2>RFID防盜包款</h2>
+  	</div>
+     <div class="pd_left">
+     	<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00031581" target="_blank">
+     	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/rfid_01.jpg">
+     	</a>
+     <div class="text"><h3>Hexa 超輕量筆電後背包</h3><br>
+        <p class="mb-hide">融合簡約美學與實用性，寬敞的內部空間可收納15吋筆記型電腦及收納隨身小物。隨時隨地帶著它去工作、運動，或前往下一個城市冒險。</p>
+      </div>
+     </div>
+     
+     <div class="pd_right">
+     	<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00030847" target="_blank"><img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/rfid_02.jpg"></a>
+     	<div class="text"><h3>Tego 防盜單肩隨行包</h3><br>
+        <p class="mb-hide">專為喜愛簡約風格的旅行愛好者所設計，融合機能性和未來感的設計風格。特殊的速解扣環設計，可快速地將包從後背滑至胸前，方便拿取隨身物品。</p>
+      </div>
+     </div>
+  
+ </div>
+ <div class="clear"></div> 
+
+    <!--
+    <a class="btn btn-main" href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c01.do?dc_cateid_0=0_059_058_222" target="_blank"> 看更多ShiftCam商品 〉 </a>
+    -->	
+ <div class="reddot">
+ 	<div class="moshi_title"><h6>AWARD</h6><h2>紅點設計得獎系列</h2></div>
+    <div class="award inner">
+    
+ 	<div>
+	<div class="pd_01">
+     	<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00030820" target="_blank">
+     	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/reddot_01.jpg">
+     	</a>
+     </div>
+     <div class="text"><h3>Avanti Air<br>藍牙無線耳罩式耳機</h3><br>
+        <p class="mb-hide">2018 德國紅點設計獎肯定，擁有27 小時超長續航力與快充技術為繁忙日常節省時間外，更具有卓越的聲音展現，以及符合人體工學的弧形不銹鋼頭帶，帶來更舒適的佩戴體驗。</p><br>
+        <h2><span>NT$</span> 9,000 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00030820" target="_blank"><img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+     </div>
+    </div>
+    <div class="clear"></div>
+    
+    <div>
+      <div class="text text2 mb-hide"><h3>IonBank<br>5K 超容量鋁合金行動電源</h3><br>
+        <p class="mb-hide">不需再帶充電線，以內建Lightning充電線為特色。隨時隨地方便地充電，減少負擔，更額外配備一個USB端口，方便為多種設備同時充電。</p><br>
+        <h2><span>NT$</span> 2,390 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00031273" target="_blank"><img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+      </div>
+      <div class="pd_02">
+     	<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00031273" target="_blank">
+     	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/reddot_02.jpg">
+     	</a>
+     </div>
+     <div class="text text2 pc-hide"><h3>IonBank<br>5K 超容量鋁合金行動電源</h3><br>
+        <p class="mb-hide">不需再帶充電線，以內建Lightning充電線為特色。隨時隨地方便地充電，減少負擔，更額外配備一個USB端口，方便為多種設備同時充電。</p><br>
+        <h2><span>NT$</span> 2,390 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00031273" target="_blank"><img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+      </div>
+    </div>
+    <div class="clear"></div>
+     
+    <div>
+      <div class="pd_03">
+     	<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00031274" target="_blank">
+     	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/reddot_03.jpg">
+     	</a>
+     </div>
+     <div class="text text3"><h3>IonBank<br>3K 便攜式行動電源</h3><br>
+        <p class="mb-hide">融合簡約美學與實用性，寬敞的內部空間可收納15吋筆記型電腦及收納隨身小物。隨時隨地帶著它去工作、運動，或前往下一個城市冒險。</p><br>
+        <h2><span>NT$</span> 1,890 <a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00031274" target="_blank"><img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/intro.png"></a></h2>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+    
+ 
+<div class="add inner"> 
+  <h3>週邊商品推薦</h3>
+  <div class="content">
+  <div class="add_pd">
+ 	<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00032639" target="_blank">
+ 	 <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/other_01.jpg"  class="image">
+  		<div class="overlay">
+   		 <div class="text">IonSuit 電池殼<br>for iPhone8/7
+   		 <h2><span>NT$</span> 2,990</h2>   	
+   		 </div>
+  		</div>
+ 	</a>
+  </div>
+	<div class="add_pd">
+ 		<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00032643" target="_blank">
+ 		 <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/other_02.jpg"  class="image">
+ 		 <div class="overlay">
+  		  <div class="text">IonSlim USB-C<br>5K 超薄行動電源
+   		 <h2><span>NT$</span> 1,590</h2> 
+  		  </div>
+  		</div>
+ 		</a>
+	</div>
+	<div class="add_pd">
+ 		<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00032647" target="_blank">
+ 		 <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/other_03.jpg" class="image">
+  		<div class="overlay">
+  	 	 <div class="text">Symbus USB-C<br>多功能擴充基座
+   		 <h2><span>NT$</span> 3,690</h2> 
+    	</div>
+  		</div>
+ 		</a>
+	</div>
+	<div class="add_pd">
+ 		<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00032776" target="_blank">
+  		<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/other_04.jpg" class="image">
+ 		 <div class="overlay">
+  		  <div class="text">USB-C 音樂/充電<br>二合一轉接器
+  		  <h2><span>NT$</span> 1,190</h2>
+  		  </div>
+  		</div>
+ 		</a>
+	</div>
+	<div class="add_pd" style="margin-right: 0">
+ 		<a href="http://udesign.udnfunlife.com/mall/cus/cat/Cc1c02.do?dc_cateid_0=0_059_049_501&dc_cargxuid_0=DU00032777" target="_blank">
+ 		 <img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/other_05.jpg" class="image">
+ 		 <div class="overlay">
+ 		   <div class="text">IonSlim<br>10K 行動電源
+ 		   <h2><span>NT$</span> 2,490</h2>
+		    </div>
+ 		 </div>
+		 </a>
+	</div>
+  </div>
+  <div class="clear"></div>
+</div>
+   
+   
+<div class="gallery">
+	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/cafe_01.jpg" >
+	<div class="text"><h2>Moshi Café 不再只是喝咖啡</h2>
+<p>延續一貫的科技時尚態度，展售全系列商品提供現場體驗，更貼心提供3C產品的充電裝置，擁有簡約舒適的悠閒空間。<br>細細品味無時間限制的質感午後。</p></div>
+	<img src="http://img.udnfunlife.com/art/UDesign/event/201809/moshi/images/cafe_02.jpg" >
+</div>
+   
+ 
+    
+    
+    
+    
+    
+  <!-- 說明頁 開始-->	
+	<div class="sp_out">
+	<div class="sp">
+	<div class="sp_inner">
+	<h3>全站滿額最高折600</h3>
+	<!--
+	<h5><span class="txt_index">活動期間&nbsp;&nbsp;</span><span class="txt_bigger">9/10 - 10/9</span></h5>
+	-->
+	<h5><span class="txt_index">活動內容&nbsp;&nbsp;</span></h5>
+    
+	<ol>
+		<!--
+		<li>活動期間購買Moshi系列商品，單筆消費贈送 Moshi Café 飲品券一張 ( 可於 Moshi Café 門市免費兌換價值 NT$100 元飲品，超過可補差額，無使用期限與消費門檻，外帶與內用均可 ) 。單一帳戶最高送一張，恕不再往上累積，票券將依訂單成立順序依序贈送，共80張，送完為止。得獎者將於2018年11月1日前由email通知，實際票券以主辦單位最終提供為主。</li>
+		-->
+		<li>新會員首購贈500折價金，詳情請見相關<a href="http://udesign.udnfunlife.com/mall/cus/event/eventPage.do?url=http://img.udnfunlife.com/art/UDesign/event/201810/new_member/info.html&eventpage=202712311&kdid=eventPage" target="_blank">活動辦法</a></li>
+  	</ol>
+  
+  	<h5><span class="txt_index">活動辦法&nbsp;&nbsp;</span></h5>
+  
+	<ol>
+	<li>實付金額 = 商品售價－購物金（或折價金）折抵及其它折扣－運費－服務費。</li>
+	<li>符合活動資格之訂單，如另行取消、退貨、非商品瑕疵之換貨，則該筆訂單不得要求入列計算。</li>
+	<li>本活動排除「募資預購」、「預購」、「指定交貨日」、「加價購」、「競標商品」、「部份特殊性票券」、「特殊性活動」（特殊性活動會另行公告，視特殊活動公告而定）。</li>
+  	</ol>
+  
+  
+  
+	</div><!-- end of sp_inner  -->
+	</div><!-- end of sp  -->
+	</div><!-- end of sp_wrap  -->
+<!-- 說明頁 結束-->
+	
+
+
+<!-- 注意事項 開始-->
+	<div class="spnote_out">
+	<div class="sp_note">
+	<div class="sp_note_inner">
+	<h5><span>注意事項</span></h5>
+	<ol>
+<li>本活動由 有.設計uDesign 所舉辦，參加者於參加本活動之同時，即同意接受本活動注意事項之規範，如有違反本活動注意事項之行為，有.設計uDesign 得取消其參加或得獎資格，並對於任何破壞本活動之行為保留相關權利。</li>
+<li>參加者保證所有填寫或提出之資料均為真實且正確，且未冒用或盜用任何第三人之資料。如有不實或不正確之情事，將被取消參加資格。</li>
+<li>如有任何因電腦、網路、電話、技術或不可歸責於 有.設計uDesign 之事由，而使參加者所寄出或登錄之資料有遲延、遺失、錯誤、無法辨識或毀損之情況，有.設計uDesign 不負任何法律責任，參加者亦不得因此異議。</li>
+<li>有.設計uDesign 有權決定取消、終止、修改或暫停本活動。</li>
+	</ol>
+	</div><!-- end of sp_note_inner  -->
+	</div><!-- end of sp_note  -->
+	</div><!-- end of spnote_out  -->
+<!-- 注意事項 結束-->
+    
+    
+    
+    
+ 
+ 
+ 
+ </div><!-- end of main_wrap -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
